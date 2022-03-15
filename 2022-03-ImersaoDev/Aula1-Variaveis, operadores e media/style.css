@@ -1,0 +1,52 @@
+body {
+  font-family: 'Roboto Mono',monospace;
+  min-height: 400px;
+  background-image: url('https://static.escolakids.uol.com.br/2020/08/licoes-importantes-escola.jpg');
+  background-color: #000000;
+  background-size: 50%;
+  background-position: center 220px;
+  background-repeat: no-repeat;
+}
+/*https://i.pinimg.com/originals/3d/07/1d/3d071da87e52c2c0a47d5084f82ecdb0.gif*/
+/*https://mega.ibxk.com.br/2016/07/26/26112810441108.gif?ims=610x*/
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 90vh;
+}
+
+.page-title {
+  color:#ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color:#ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+input{
+  width: 50px;
+  margin: 10px 10px 10px 10px;
+}
+#divInput{
+  display: inline-flex;
+  width: 700px;
+  margin: auto;
+}
+#divInput p{color: #ffffff; font-size: 20px;}
+#divInput label{color: #ffffff;}
+#resultado{background-color: #ffffff;}
+button:hover{background-color: rgb(144, 144, 199); cursor: pointer;}
