@@ -1,0 +1,94 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 600px;
+  background-color: #000000;
+  background-image: url('https://cdn.wizard.com.br/wp-content/uploads/2016/05/18172126/numeros-em-ingl%C3%AAs.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 60vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 16px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+
+input {
+  margin: 4px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.resultado {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 16px;
+}
+
+button {
+  margin: 10px;
+  cursor: pointer;
+}
+
+
+
+#chances {
+  /* border: #2c2929 3px solid; */
+  width: 15vw;
+  height: 9vh;
+  margin: auto;
+  display: flex;
+  /* border-radius: 15px; */
+}
+.chance {
+  border: #2c2929 2px solid;
+  width: 5vw;
+  height: 9vh;
+  border-radius: 10px;
+}
+#corFundo{
+  background-color: #303d50d3;
+  width: 50vw;
+  height: 65vh;
+  position: absolute;
+  top: 3px;
+  left: 24%;
+  z-index: -1;
+  box-shadow: 10px 10px 70px black, -10px -10px 70px black;
+  border-radius: 10px;
+}
